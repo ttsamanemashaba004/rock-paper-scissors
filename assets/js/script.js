@@ -12,5 +12,10 @@ function getComputerChoice(){
 }
 
 
-console.log(getComputerChoice())
+function getHumanChoice(){
+    const userChoice = prompt("Pick between, rock, paper, or scissors:");
 
+    return console.log(userChoice);
+}
+
+getHumanChoice()
